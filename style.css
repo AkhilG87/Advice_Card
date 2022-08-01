@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Nunito:wght@200&display=swap');
+* {
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+}
+.align {
+  align-items: center;
+}
+.jus {
+  justify-content: center;
+}
+.col {
+  flex-direction: column;
+}
+body {
+  background-color: hsl(218, 23%, 16%);
+  font-family: 'Manrope', sans-serif;
+  height: 100vh;
+  font-size: 28px;
+}
+.container {
+  height: 100vh;
+}
+.child {
+  background-color: hsl(217, 19%, 24%);
+  padding: 5px 25px 11px;
+  border-radius: 10px;
+}
+#di {
+  width: 374px;
+  color: hsl(193, 38%, 86%);
+  margin-top: 10px;
+  text-align: center;
+}
+img {
+  width: 380px;
+  margin-bottom: 5vh;
+}
+#he {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+.rel {
+  top: 70vh;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+}
+.rel img {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 600px) {
+  .child {
+    width: 350px;
+  }
+}
